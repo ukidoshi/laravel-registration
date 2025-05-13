@@ -11,6 +11,12 @@
  - [Контроллер](https://github.com/ukidoshi/laravel-registration/blob/main/app/Http/Controllers/UserAuthController.php) регистрации(api/registration) и получения данных(api/profile) пользователя
  - [Сервис](https://github.com/ukidoshi/laravel-registration/blob/main/app/Services/UserAuthService.php) реализующий регистрацию и получения данных пользователя
  - [Валидация](https://github.com/ukidoshi/laravel-registration/blob/main/app/Http/Requests/UserRegistrationRequest.php) и его [ресурс](https://github.com/ukidoshi/laravel-registration/blob/main/app/Http/Resources/UserAuthResource.php)
+
+## Тесты
+```
+php artisan test
+```
+
 <hr>
 Сарыглар Начын
 
